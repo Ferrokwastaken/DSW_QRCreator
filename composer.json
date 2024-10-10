@@ -1,0 +1,19 @@
+{
+    "name": "dsw/qr_creator",
+    "description": "Aplicación de generador de códigos QR",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Dsw\\QrCreator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ferrokwastaken",
+            "email": "israelduquesilva@hotmail.com"
+        }
+    ],
+    "require": {
+        "endroid/qr-code": "^5.1"
+    }
+}
